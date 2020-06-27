@@ -1,0 +1,359 @@
+/*background image*/
+.bgimg {
+ 
+    background-image: url("./img/restaurant.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav-right{
+    float: right;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom-right-radius: 50px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+}
+.container2{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.header1 h1{
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: "Lobster";
+}
+/*Home PAge*/
+.Home{
+    
+    position: relative;
+    text-align:left;
+    margin: 20px;
+    width: auto;
+
+}
+.main{
+    background-color: azure;
+}
+.sub{
+    font-size: 20px;
+    font-family: "Lobster";
+    text-align: center;
+}
+.description{
+    font-variant: normal;
+    font-size: 18px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.dish{
+    font-family: "Lobster";
+    float:none;
+    
+}
+div.gallery {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    font-family: "Lobster";
+    padding: 50px;
+    
+}
+  div.gallery:hover {
+    border: 2px solid #777;
+}
+  div.gallery img {
+    width: 100%;
+    height: 150px;
+}
+  div.desc {
+    font-size: 20px;
+    padding: 30pxpx;
+    text-align: center;
+
+}
+.footer{
+    float: none;
+    text-align: center;
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*About Page*/
+.about{
+    width: auto;
+    font-family: "Lobster";
+    text-align: center;
+}
+.section{
+    font-size: 25px;
+    color:lightblue;
+    padding: 18px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Lobster";
+    text-align: center;
+    
+}
+
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column3 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    
+}
+.containers3 {
+    padding: 0 16px;
+    height: 30%;
+
+}
+  
+.containes3::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 36%;
+}
+  
+  .title {
+    color: grey;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+  .button:hover {
+    background-color: #555;
+}
+  
+
+    .column3 {
+      width: 50%;
+      display: block;
+}
+
+/*Contact Page*/
+.Contact{
+    font-family: "Lobster";
+    text-align: center;
+
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=send] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 8px 83%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=send]:hover {
+    background-color: #45a049;
+}
+  
+.container4{
+    margin-left: 20px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.class1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid blue;    
+    background-color: white; 
+}
+.our address{
+    width: auto;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Street{
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px;
+}
+.Social{
+    width: auto;
+    font-size: 14px;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}  
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
