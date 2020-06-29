@@ -105,11 +105,12 @@ div.gallery {
 
 }
 .footer{
+  font-size:18px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: lightblue;
+  background-color: white;
   color: white;
   text-align: center;
 }
