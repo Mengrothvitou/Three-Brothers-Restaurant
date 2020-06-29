@@ -105,11 +105,13 @@ div.gallery {
 
 }
 .footer{
-    
-    text-align: center;
-    font-size: 19px;
-    margin-left: auto;
-    margin-right: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
 }
 /*About Page*/
 .about{
