@@ -204,10 +204,7 @@ div.gallery {
     content: "";
     display: table;
     clear: both;
-    margin-left:auto;
-    margin-right:auto;
-    
-    
+
   }
 input[type=text], select {
     width: 100%;
@@ -238,7 +235,7 @@ input[type=send]:hover {
 .container4{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
